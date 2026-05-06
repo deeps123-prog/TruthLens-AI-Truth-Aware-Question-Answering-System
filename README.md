@@ -59,33 +59,33 @@ Answer Generator LLM,
 Produces initial answer strictly from context
 
 🔹 Truth-Aware Layer (🔥 Core Innovation)
-1. Self-Verification
+1. Self-Verification:
 Critiques answer,
 Finds:
 Errors,
-     Missing info
+     Missing info,
 Weak reasoning
 Outputs:
-Revised answer
+Revised answer,
 Issues
-2. Source Agreement Analyzer
+2. Source Agreement Analyzer:
 Checks:
-Do sources agree?
+Do sources agree?,
 Are there contradictions?
-🔹 Confidence Layer
+🔹 Confidence Layer:
 Combines:
-Verification feedback
-Source agreement
+Verification feedback,
+Source agreement,
 Answer quality
 
 👉 Outputs:
 
 Confidence score (0–1)
-🔹 Output Layer
+🔹 Output Layer:
 Final structured response:
-Answer
-Confidence
-Warnings
+Answer.
+Confidence,
+Warnings,
 Source reliability
 
 🖥️ Optional UI Layer
