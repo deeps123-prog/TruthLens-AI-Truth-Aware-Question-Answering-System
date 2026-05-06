@@ -42,4 +42,5 @@ TruthLens introduces a **truth-awareness layer** that enables AI to:
 
 TruthLens AI follows a multi-stage pipeline combining retrieval, generation, self-verification, and confidence estimation to produce reliable, transparent answers.
 
+<img width="1479" height="2300" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/de8b26f0-bfaf-450b-822f-957e02e0010f" />
 
