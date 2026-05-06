@@ -109,23 +109,22 @@ Source reliability
 
 📊 Example Output
 
-{
-  "answer": "The system uses AWS EC2 and S3 for scalable deployment.",
-  "confidence_score": 0.78,
-  "confidence_label": "Medium",
-  "warnings": [
-    "Some sources provide incomplete infrastructure details"
-  ],
-  "source_reliability": "Moderate"
-}
+<img width="797" height="344" alt="image" src="https://github.com/user-attachments/assets/3721ef1e-715c-482a-a45e-f163b7ba1634" />
+
 
 
 🛠️ Tech Stack
+
 Python
+
 LLM APIs (OpenAI / open-source)
+
 LangChain / LlamaIndex
+
 Streamlit (UI)
+
 Vector DB / Search API
+
 📈 What This Demonstrates
 Building reliable AI systems, not just functional ones
 Designing multi-stage LLM pipelines
