@@ -103,19 +103,8 @@ Source reliability
 
 🔁 Pipeline Flow
 
-User Query
-  ↓   
-Retriever (fetch sources)
-    ↓
+<img width="538" height="327" alt="image" src="https://github.com/user-attachments/assets/a2df3238-bcb9-4ac9-8750-dcb43f6aef8a" />
 
-Generator (initial answer)
- 
-   ↓
-Verifier (self-critique)
-   ↓
-Confidence Engine
-   ↓
-Final Output (Answer + Confidence + Sources)
 
 
 📊 Example Output
