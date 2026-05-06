@@ -44,3 +44,9 @@ TruthLens AI follows a multi-stage pipeline combining retrieval, generation, sel
 
 <img width="1479" height="2300" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/de8b26f0-bfaf-450b-822f-957e02e0010f" />
 
+Unlike traditional RAG systems, this architecture introduces a truth-awareness layer that enables self-critique, source validation, and calibrated confidence scoring.
+
+🖥️ Optional UI Layer
+
+<img width="346" height="525" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/b0a15e43-d2a7-4a88-845f-50a64c4f6187" />
+
