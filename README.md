@@ -97,52 +97,21 @@ Source reliability
 
 <img width="346" height="525" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/b0a15e43-d2a7-4a88-845f-50a64c4f6187" />
 
-📁 Repository Structure
-
-truthlens-ai/
-│
-├── README.md
-├── requirements.txt
-├── .env.example
-├── .gitignore
-│
-├── app/                     # Main application
-│   ├── main.py             # Entry point (API or Streamlit)
-│   ├── config.py
-│   └── utils.py
-│
-├── core/                    # Core logic (important!)
-│   ├── retriever.py
-│   ├── generator.py
-│   ├── verifier.py
-│   ├── confidence.py
-│   └── pipeline.py
-│
-├── models/                  # Model wrappers
-│   ├── llm.py
-│   └── embeddings.py
-│
-├── data/
-│   ├── sample_queries.json
-│   └── evaluation_set.json
-│
-├── evaluation/
-│   ├── metrics.py
-│   └── evaluator.py
-│
-├── ui/                      # Optional (but HIGHLY recommended)
-│   └── app.py              # Streamlit UI
-│
-└── docs/
-    ├── architecture.md
-    └── experiments.md
 
 ⚙️ Core System Design
+
+
 🔁 Pipeline Flow
 
 User Query
+
+
    ↓
+
+   
 Retriever (fetch sources)
+
+
    ↓
 Generator (initial answer)
    ↓
