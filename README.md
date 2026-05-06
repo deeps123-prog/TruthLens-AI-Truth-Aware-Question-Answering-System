@@ -67,7 +67,7 @@ Critiques answer,
 Finds:
 Errors,
      Missing info,
-Weak reasoning
+Weak reasoning.
 Outputs:
 Revised answer,
 Issues
