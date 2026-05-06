@@ -97,3 +97,100 @@ Source reliability
 
 <img width="346" height="525" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/b0a15e43-d2a7-4a88-845f-50a64c4f6187" />
 
+📁 Repository Structure
+
+truthlens-ai/
+│
+├── README.md
+├── requirements.txt
+├── .env.example
+├── .gitignore
+│
+├── app/                     # Main application
+│   ├── main.py             # Entry point (API or Streamlit)
+│   ├── config.py
+│   └── utils.py
+│
+├── core/                    # Core logic (important!)
+│   ├── retriever.py
+│   ├── generator.py
+│   ├── verifier.py
+│   ├── confidence.py
+│   └── pipeline.py
+│
+├── models/                  # Model wrappers
+│   ├── llm.py
+│   └── embeddings.py
+│
+├── data/
+│   ├── sample_queries.json
+│   └── evaluation_set.json
+│
+├── evaluation/
+│   ├── metrics.py
+│   └── evaluator.py
+│
+├── ui/                      # Optional (but HIGHLY recommended)
+│   └── app.py              # Streamlit UI
+│
+└── docs/
+    ├── architecture.md
+    └── experiments.md
+
+⚙️ Core System Design
+🔁 Pipeline Flow
+
+User Query
+   ↓
+Retriever (fetch sources)
+   ↓
+Generator (initial answer)
+   ↓
+Verifier (self-critique)
+   ↓
+Confidence Engine
+   ↓
+Final Output (Answer + Confidence + Sources)
+
+
+📊 Example Output
+
+{
+  "answer": "The system uses AWS EC2 and S3 for scalable deployment.",
+  "confidence_score": 0.78,
+  "confidence_label": "Medium",
+  "warnings": [
+    "Some sources provide incomplete infrastructure details"
+  ],
+  "source_reliability": "Moderate"
+}
+
+
+🛠️ Tech Stack
+Python
+LLM APIs (OpenAI / open-source)
+LangChain / LlamaIndex
+Streamlit (UI)
+Vector DB / Search API
+📈 What This Demonstrates
+Building reliable AI systems, not just functional ones
+Designing multi-stage LLM pipelines
+Applying self-reflection and verification in AI
+Thinking beyond generation → trust-aware reasoning
+⚙️ Setup
+git clone https://github.com/your-username/truthlens-ai.git
+cd truthlens-ai
+pip install -r requirements.txt
+
+Add your API key in .env:
+
+OPENAI_API_KEY=your_key_here
+
+Run the app:
+
+streamlit run ui/app.py
+
+🎯 Future Work
+Improve confidence calibration with real benchmarks
+Integrate knowledge graphs for structured reasoning
+Fine-tune models for factual consistency
