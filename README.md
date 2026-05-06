@@ -47,12 +47,12 @@ TruthLens AI follows a multi-stage pipeline combining retrieval, generation, sel
 Unlike traditional RAG systems, this architecture introduces a truth-awareness layer that enables self-critique, source validation, and calibrated confidence scoring.
 
 🧩 What Each Block Represents
-🔹 Input Layer
+🔹 Input Layer :
 User Query → Entry point
-🔹 Retrieval Layer
-Retriever
-Fetches relevant documents (web / vector DB)
-Context / Sources
+🔹 Retrieval Layer:
+Retriever,
+Fetches relevant documents (web / vector DB),
+Context / Sources,
 Ground truth for everything (critical for reducing hallucination)
 🔹 Generation Layer
 Answer Generator LLM
