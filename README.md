@@ -126,13 +126,21 @@ Streamlit (UI)
 Vector DB / Search API
 
 📈 What This Demonstrates
+
 Building reliable AI systems, not just functional ones
+
 Designing multi-stage LLM pipelines
+
 Applying self-reflection and verification in AI
+
 Thinking beyond generation → trust-aware reasoning
+
 ⚙️ Setup
+
 git clone https://github.com/your-username/truthlens-ai.git
+
 cd truthlens-ai
+
 pip install -r requirements.txt
 
 Add your API key in .env:
