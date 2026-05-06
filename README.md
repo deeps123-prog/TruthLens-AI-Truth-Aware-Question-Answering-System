@@ -105,10 +105,7 @@ Source reliability
 
 User Query
 
-
-   ↓
-
-   
+   ↓   
 Retriever (fetch sources)
 
 
