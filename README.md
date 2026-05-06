@@ -54,15 +54,16 @@ Retriever,
 Fetches relevant documents (web / vector DB),
 Context / Sources,
 Ground truth for everything (critical for reducing hallucination)
-🔹 Generation Layer
-Answer Generator LLM
+🔹 Generation Layer:
+Answer Generator LLM,
 Produces initial answer strictly from context
+
 🔹 Truth-Aware Layer (🔥 Core Innovation)
 1. Self-Verification
-Critiques answer
+Critiques answer,
 Finds:
-Errors
-Missing info
+Errors,
+     Missing info
 Weak reasoning
 Outputs:
 Revised answer
