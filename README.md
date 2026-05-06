@@ -46,6 +46,47 @@ TruthLens AI follows a multi-stage pipeline combining retrieval, generation, sel
 
 Unlike traditional RAG systems, this architecture introduces a truth-awareness layer that enables self-critique, source validation, and calibrated confidence scoring.
 
+🧩 What Each Block Represents
+🔹 Input Layer
+User Query → Entry point
+🔹 Retrieval Layer
+Retriever
+Fetches relevant documents (web / vector DB)
+Context / Sources
+Ground truth for everything (critical for reducing hallucination)
+🔹 Generation Layer
+Answer Generator LLM
+Produces initial answer strictly from context
+🔹 Truth-Aware Layer (🔥 Core Innovation)
+1. Self-Verification
+Critiques answer
+Finds:
+Errors
+Missing info
+Weak reasoning
+Outputs:
+Revised answer
+Issues
+2. Source Agreement Analyzer
+Checks:
+Do sources agree?
+Are there contradictions?
+🔹 Confidence Layer
+Combines:
+Verification feedback
+Source agreement
+Answer quality
+
+👉 Outputs:
+
+Confidence score (0–1)
+🔹 Output Layer
+Final structured response:
+Answer
+Confidence
+Warnings
+Source reliability
+
 🖥️ Optional UI Layer
 
 <img width="346" height="525" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/b0a15e43-d2a7-4a88-845f-50a64c4f6187" />
