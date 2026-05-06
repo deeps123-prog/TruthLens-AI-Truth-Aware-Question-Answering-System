@@ -137,21 +137,12 @@ Thinking beyond generation → trust-aware reasoning
 
 ⚙️ Setup
 
-git clone https://github.com/your-username/truthlens-ai.git
-
-cd truthlens-ai
-
-pip install -r requirements.txt
-
-Add your API key in .env:
-
-OPENAI_API_KEY=your_key_here
-
-Run the app:
-
-streamlit run ui/app.py
+<img width="744" height="503" alt="image" src="https://github.com/user-attachments/assets/d7a81d55-d3b3-4e2d-b189-de91a886d54e" />
 
 🎯 Future Work
+
 Improve confidence calibration with real benchmarks
+
 Integrate knowledge graphs for structured reasoning
+
 Fine-tune models for factual consistency
