@@ -72,7 +72,8 @@ Issues
 Checks:
 Do sources agree?,
 Are there contradictions?
-🔹 Confidence Layer:
+ 
+ 🔹 Confidence Layer:
 Combines:
 Verification feedback,
 Source agreement,
