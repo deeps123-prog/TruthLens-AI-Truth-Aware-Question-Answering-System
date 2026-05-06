@@ -1,0 +1,37 @@
+truthlens-ai/
+│
+├── README.md
+├── requirements.txt
+├── .env.example
+├── .gitignore
+│
+├── app/                     # Main application
+│   ├── main.py             # Entry point (API or Streamlit)
+│   ├── config.py
+│   └── utils.py
+│
+├── core/                    # Core logic (important!)
+│   ├── retriever.py
+│   ├── generator.py
+│   ├── verifier.py
+│   ├── confidence.py
+│   └── pipeline.py
+│
+├── models/                  # Model wrappers
+│   ├── llm.py
+│   └── embeddings.py
+│
+├── data/
+│   ├── sample_queries.json
+│   └── evaluation_set.json
+│
+├── evaluation/
+│   ├── metrics.py
+│   └── evaluator.py
+│
+├── ui/                      # Optional (but HIGHLY recommended)
+│   └── app.py              # Streamlit UI
+│
+└── docs/
+    ├── architecture.md
+    └── experiments.md
