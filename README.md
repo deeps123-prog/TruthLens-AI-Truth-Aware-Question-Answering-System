@@ -104,13 +104,12 @@ Source reliability
 🔁 Pipeline Flow
 
 User Query
-
-   ↓   
+  ↓   
 Retriever (fetch sources)
+    ↓
 
-
-   ↓
 Generator (initial answer)
+ 
    ↓
 Verifier (self-critique)
    ↓
